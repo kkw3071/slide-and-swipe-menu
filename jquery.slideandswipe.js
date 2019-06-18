@@ -134,7 +134,7 @@
 				}
 
 				if( distance < 0 ){
-					distance = (abs( distance ) / navWidth * 100);
+					distance = (Math.abs( distance ) / navWidth * 100);
 
 					if( distance > 0 )
 						distance = -distance;
